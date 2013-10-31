@@ -11,7 +11,7 @@ module DataPath (Cycle,PCReg,RegA,RegB,ALUOutReg,Instruction,Opcode,
 		 PCSource,ALUOp,ALUSrcB,ALUSrcA,RegWrite,RegDst,Zero,Overflow,
 		 Clock);
 
-   //Debugging output variables
+   //Declaring output variables
    output [31:0] Cycle,PCReg,ALUOutReg,RegA,RegB,Instruction;
 
    output [5:0]  Opcode;
